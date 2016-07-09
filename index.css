@@ -70,7 +70,7 @@ input[type=text] {
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-image: url('searchicon.png');
+    background-image: url('image/searchicon.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -94,14 +94,14 @@ input[type=text]:hover {
 #doctorA{
     position: absolute;
     height: 460px;
-    width: 50%;
+    width: 25%;
     border: 2px solid lightgrey;
 }
 #doctorB{
     position: absolute;
-    left: 50%;
     height: 465px;
-    width: 50%;
+    left:50%;
+    width: 25%;
     border: 2px solid lightgrey;
    }
 
@@ -126,3 +126,79 @@ input[type=text]:hover {
     text-align: center;
 }
 
+
+#doctorAinfo{
+    border: 2px solid greenyellow;
+    height: 465px;
+    position: absolute;
+    left:25%;
+    width:25%;
+    word-wrap:break-word;
+    text-overflow: default;
+}
+
+#doctorBinfo{
+border: 2px solid blue;
+    height: 465px;
+    position: absolute;
+    left:75%;
+    width:25%;
+    word-wrap:break-word;
+    text-overflow: default;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.readMore {
+    padding: 10px;
+    background-color: #d7e6f9;
+    border-radius: 5px;
+    text-align: right;
+}
+#services {
+    position: relative;
+    top: 60px;
+    border: 2px solid lightblue;
+    width:100%;
+    height: 600px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 768px;
+}
+.service{
+    position: absolute;
+    width:25%;
+    height: 300px;
+    border:2px solid lightblue;
+    float: left;
+    }
+#service1{
+    left: 25%;
+}
+
+#service2{
+    left: 50%;
+}
+
+#service3{
+    left: 75%;
+}
+
+#service4{
+    top: 50%;
+    }
+
+#service5{
+    top:50%;
+    left: 25%;
+}
+#service6 {
+    top: 50%;
+    left: 50%;
+}
+
+#service7{
+    top: 50%;
+    left: 75%;
+}
