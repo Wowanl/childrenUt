@@ -2,10 +2,6 @@ article, aside, details, figcaption, figure, footer, header, menu, nav, section 
     display: block;
 }
 
-html{
-
-}
-
 
 #topDiv{
     position: relative;
@@ -27,16 +23,7 @@ img {
     width:1200px;
     height: 470px;
 }
-#search{
-    position: absolute;
-    top:520px;
-    left:0;
-    width: 100%;
-}
 
-.sliderImage{
-    display: none;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -57,6 +44,7 @@ li:last-child {
 li a {
     display: block;
     color: white;
+    font-size: 16px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -337,4 +325,8 @@ position: relative;
     height:100px;
     margin: 0 auto;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 58%;
+    margin: auto;}
 
